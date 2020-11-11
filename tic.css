@@ -1,0 +1,56 @@
+body {
+  background-image: url("https://fsa.zobj.net/crop.php?r=-fhBIHlI4JDADuTQSQbeIw6QNGQfjXgO3Mb_5qHtAEngw1ZVGGUD4eoAX79t6rfUPO65anil8HX_Mxmw2I7ynCkr-dM-MsQVwwGUWnJe09kPyWLPXBr_kQtKSRIpWADsmSh36TxMQE5wS44a");
+
+background-size: cover;
+}
+
+
+td{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 80px;
+  color: maroon;
+}
+
+
+.vertical{
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+}
+
+.horizontal{
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+h1{
+  text-align: center;
+}
+
+table{
+  margin: auto;
+}
+
+.container .jumbotron{
+  background: blue;
+  color: lightblue;
+}
+
+
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(0,0,0, 0.6);
+  position: absolute;
+  left: 80%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: green;
+  font-size: 2em;
+}

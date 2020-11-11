@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+
+          <h1> Welcome to </h1>
+          <h1>TIC TAC TOE</h1>
+          <br>
+        </div>
+        <table>
+        <tr>
+          <td class="cell" data-cell id = "0" ></td>
+          <td class= "vertical cell"  data-cell id = "1"></td>
+          <td class="cell" data-cell id = "2"></td>
+        </tr>
+        <tr>
+          <td class="cell horizontal" data-cell id = "3"></td>
+          <td class= "cell horizontal vertical" data-cell id = "4"></td>
+          <td class= "cell horizontal" data-cell id = "5"></td>
+        </tr>
+        <tr>
+          <td class="cell" data-cell id = "6"></td>
+          <td class= "cell vertical" data-cell id = "7"></td>
+          <td class="cell" data-cell id = "8"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="endgame">
+	        <div class="text"></div>
+	        <button onClick="startGame()">Replay</button>
+		</div>
+    <script type="text/javascript" src="script.js">
+
+  </script>
+  </body>
+</html>
